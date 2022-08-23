@@ -1,0 +1,47 @@
+.about-section {
+	width: 100%;
+	background-color: #1b1725;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.about-content {
+	position: relative;
+	left: 20%;
+	width: 80%;
+	display: inline-block;
+}
+
+.about-header {
+	transition-duration: 0.2s;
+	width: 200px;
+}
+.about-header:hover {
+	transform: translateY(-3px);
+}
+
+.about-me {
+	font-weight: 200;
+	font-size: 22px;
+	width: 40%;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+.about-me:hover {
+	transform: translateY(-3px);
+}
+
+.about-img {
+	width: 17%;
+	position: relative;
+	border-radius: 50%;
+	display: inline-block;
+	left: 14%;
+	bottom: 40px;
+	transition-duration: 0.2s;
+	-webkit-filter: drop-shadow(10px 10px 6px rgba(0, 0, 0, 0.199));
+	filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.199));
+}
+.about-img:hover {
+	transform: translateY(-3px);
+}

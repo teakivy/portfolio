@@ -1,0 +1,36 @@
+.work-section {
+	width: 100%;
+	background-color: #1b1725;
+	padding-top: 50px;
+	padding-bottom: 230px;
+}
+
+.work-content {
+	position: relative;
+	left: 20%;
+	width: 80%;
+	display: inline-block;
+}
+
+.work-header {
+	transition-duration: 0.2s;
+	width: 200px;
+}
+.work-header:hover {
+	transform: translateY(-3px);
+}
+
+.project-display-one {
+	position: relative;
+	top: 10px;
+}
+
+.project-display-two {
+	position: relative;
+	top: 80px;
+}
+
+.project-display-three {
+	position: relative;
+	top: 150px;
+}

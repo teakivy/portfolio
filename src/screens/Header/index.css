@@ -1,0 +1,26 @@
+.header {
+	/* background-color: red; */
+	/* position: sticky; */
+	display: block;
+	/* margin-top: -20px; */
+}
+
+.header-links {
+	float: right;
+	padding-right: 30px;
+	font-weight: 200;
+	font-size: 1.5rem;
+	margin-top: -10px;
+}
+
+.header-element {
+	margin-left: 20px;
+	cursor: pointer;
+	transition-duration: 0.2s;
+}
+
+.header-element:hover {
+	color: var(--true-purple);
+	/* text-decoration: underline;
+	text-underline-offset: 10px; */
+}
