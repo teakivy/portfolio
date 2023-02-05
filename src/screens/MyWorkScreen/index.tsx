@@ -2,6 +2,7 @@ import React from "react";
 
 import "./index.css";
 import LeftProjectView from "./LeftProjectView";
+import Project from "./Project";
 import RightProjectView from "./RightProjectView";
 
 function MyWorkScreen() {
@@ -10,7 +11,34 @@ function MyWorkScreen() {
 			<div className="work-content">
 				<span>
 					<h1 className="section-header work-header">My Work</h1>
-					<span className="project-display-one">
+
+					<Project
+						image={require("../../assets/img/projects/darkivy.png")}
+						title="DarkIvy"
+						links={[
+							{
+								name: "VS Code",
+								link: "https://code.visualstudio.com/",
+							},
+						]}
+						projectLink="https://marketplace.visualstudio.com/items?itemName=TeakIvy.darkivy"
+						codeLink="https://github.com/teakivy/DarkIvy"
+					>
+						<p>
+							A simple VS Code purple theme avaliable on the{" "}
+							<a
+								href="https://marketplace.visualstudio.com/items?itemName=TeakIvy.darkivy"
+								target="_blank"
+								rel="noreferrer"
+								className="purple-text link hover-underline-animation"
+							>
+								Visual Studio Marketplace
+							</a>
+							.
+						</p>
+					</Project>
+
+					{/* <span className="project-display-one">
 						<LeftProjectView
 							image={require("../../assets/img/projects/darkivy.png")}
 							title="DarkIvy"
@@ -100,7 +128,7 @@ function MyWorkScreen() {
 						>
 							<p>A custom image format for pixel art</p>
 						</RightProjectView>
-					</span>
+					</span> */}
 				</span>
 			</div>
 		</div>
