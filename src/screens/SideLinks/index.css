@@ -27,3 +27,9 @@
 	color: var(--true-purple);
 	transform: translateY(-3px);
 }
+
+@media screen and (max-width: 950px) {
+	.side-links {
+		display: none;
+	}
+}

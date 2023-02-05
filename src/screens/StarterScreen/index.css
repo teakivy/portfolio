@@ -49,3 +49,29 @@
 	position: relative;
 	top: -1rem;
 }
+
+@media screen and (max-width: 950px) {
+	.logo-title {
+		display: none;
+	}
+
+	.hello-content {
+		text-align: center;
+		top: -6rem;
+	}
+
+	.hello-i-am {
+		text-align: center;
+		font-size: 2.8rem;
+	}
+
+	.hello-my-name {
+		text-align: center;
+		font-size: 6rem;
+	}
+
+	.hello-i-make {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+}
