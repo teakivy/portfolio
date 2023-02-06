@@ -19,10 +19,6 @@ function MyWorkScreen() {
 									name: "VS Code",
 									link: "https://code.visualstudio.com/",
 								},
-								{
-									name: "GitHub",
-									link: "github.com/teakivy/DarkIvy",
-								},
 							]}
 							projectLink="https://marketplace.visualstudio.com/items?itemName=TeakIvy.darkivy"
 							codeLink="https://github.com/teakivy/DarkIvy"
