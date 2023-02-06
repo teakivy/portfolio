@@ -10,6 +10,7 @@ import AboutScreen from "./screens/AboutScreen";
 import ExperienceScreen from "./screens/ExperienceScreen";
 import MyWorkScreen from "./screens/MyWorkScreen";
 import ContactScreen from "./screens/ContactScreen";
+import FooterScreen from "./screens/FooterScreen";
 
 function App() {
 	return (
@@ -136,6 +137,9 @@ function App() {
 			</div>
 			<div className="contact-screen" id="contact-screen">
 				<ContactScreen />
+			</div>
+			<div className="footer-screen">
+				<FooterScreen />
 			</div>
 			<div className="side-links-screen">
 				<SideLinks />

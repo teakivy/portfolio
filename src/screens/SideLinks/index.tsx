@@ -26,17 +26,17 @@ function SideLinks() {
 						<FiLinkedin className="side-link-element side-link-linkedin" />
 					</a>
 				</div>
+				<div>
+					<a
+						href="mailto:collinj2055@gmail.com"
+						target="_blank"
+						rel="noopener noreferrer"
+					>
+						<FiMail className="side-link-element side-link-email" />
+					</a>
+				</div>
 			</div>
-			<div>
-				<a
-					href="mailto:collinj2055@gmail.com"
-					target="_blank"
-					rel="noopener noreferrer"
-				>
-					<FiMail className="side-link-element side-link-email" />
-				</a>
-			</div>
-			<div className="line-up" />
+			{/* <div className="line-up" /> */}
 		</div>
 	);
 }
