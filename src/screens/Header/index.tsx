@@ -142,13 +142,13 @@ function Header() {
 					</p>
 				</Link>
 				<Link
-					to="my-work-screen"
+					to="projects-screen"
 					smooth={true}
 					duration={300}
 					offset={-30}
 				>
 					<p className="header-element hover-underline-animation">
-						My Work
+						Projects
 					</p>
 				</Link>
 				<Link

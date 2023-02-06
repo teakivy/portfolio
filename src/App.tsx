@@ -8,7 +8,7 @@ import SideLinks from "./screens/SideLinks";
 import ToAbout from "./screens/ToAbout";
 import AboutScreen from "./screens/AboutScreen";
 import ExperienceScreen from "./screens/ExperienceScreen";
-import MyWorkScreen from "./screens/MyWorkScreen";
+import ProjectsScreen from "./screens/MyWorkScreen";
 import ContactScreen from "./screens/ContactScreen";
 import FooterScreen from "./screens/FooterScreen";
 
@@ -132,8 +132,8 @@ function App() {
 			<div className="experience-screen" id="experience-screen">
 				<ExperienceScreen />
 			</div>
-			<div className="my-work-screen" id="my-work-screen">
-				<MyWorkScreen />
+			<div className="projects-screen" id="projects-screen">
+				<ProjectsScreen />
 			</div>
 			<div className="contact-screen" id="contact-screen">
 				<ContactScreen />

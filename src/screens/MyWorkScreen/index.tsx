@@ -3,12 +3,12 @@ import React from "react";
 import "./index.css";
 import Project from "./Project";
 
-function MyWorkScreen() {
+function ProjectsScreen() {
 	return (
 		<div className="work-section">
 			<div className="work-content">
 				<span>
-					<h1 className="section-header work-header">My Work</h1>
+					<h1 className="section-header work-header">Projects</h1>
 
 					<div className="work-details">
 						<Project
@@ -192,4 +192,4 @@ function MyWorkScreen() {
 	);
 }
 
-export default MyWorkScreen;
+export default ProjectsScreen;
