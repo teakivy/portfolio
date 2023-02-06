@@ -29,7 +29,7 @@ function SideLinks() {
 			</div>
 			<div>
 				<a
-					href="https://mail.google.com/mail/?view=cm&source=mailto&to=collinj2055@gmail.com"
+					href="mailto:collinj2055@gmail.com"
 					target="_blank"
 					rel="noopener noreferrer"
 				>

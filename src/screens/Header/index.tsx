@@ -104,7 +104,7 @@ function Header() {
 					</p>
 				</Link>
 				<Link
-					to="about-screen"
+					to="contact-screen"
 					smooth={true}
 					duration={300}
 					offset={-30}

@@ -1,0 +1,35 @@
+.email-button {
+	background-color: transparent;
+	color: var(--true-white);
+	border: 3px solid var(--true-white);
+	border-radius: 15px;
+	padding: 10px 20px;
+	font-size: 1.2rem;
+	font-weight: 600;
+	cursor: pointer;
+	transition-duration: 0.2s;
+	margin-top: 1rem;
+	box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.438);
+}
+
+.email-button:hover {
+	background-color: var(--true-purple);
+	border-color: var(--true-purple);
+	transform: translateY(-3px);
+	text-shadow: 0 0 10px rgba(255, 255, 255, 0.438);
+}
+
+.contact-section {
+	z-index: 100;
+	position: relative;
+	margin-left: 20%;
+}
+
+.contact-header {
+	transition-duration: 0.2s;
+	width: 200px;
+}
+
+.contact-header:hover {
+	transform: translateY(-3px);
+}
