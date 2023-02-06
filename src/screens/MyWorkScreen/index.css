@@ -34,3 +34,8 @@
 	position: relative;
 	top: 150px;
 }
+
+.link-bullet {
+	margin-left: 5px;
+	margin-right: 5px;
+}
