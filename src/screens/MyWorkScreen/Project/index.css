@@ -92,3 +92,35 @@
 	margin-left: 0.5rem;
 	margin-right: 0.5rem;
 }
+
+@media screen and (max-width: 500px) {
+	.project-view {
+		width: 100%;
+		height: 105%;
+	}
+
+	.project-image {
+		height: 200px;
+	}
+
+	.project-info {
+		margin-top: -5rem;
+	}
+
+	.project-title {
+		font-size: 1.8rem;
+	}
+
+	.project-description {
+		font-size: 1.3rem;
+	}
+
+	.project-links {
+		margin-top: -5rem;
+		font-size: 0.8rem;
+	}
+
+	.project-out-links {
+		margin-right: 0.5rem;
+	}
+}

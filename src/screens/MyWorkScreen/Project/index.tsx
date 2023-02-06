@@ -8,7 +8,11 @@ import "./index.css";
 function Project(props: any) {
 	return (
 		<div className="project-view">
-			<a href={props.projectLink} target="_blank" rel="noreferrer">
+			<a
+				href={props.projectLink || props.codeLink}
+				target="_blank"
+				rel="noreferrer"
+			>
 				<img
 					src={props.image}
 					alt={props.title}

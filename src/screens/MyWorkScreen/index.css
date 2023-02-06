@@ -7,7 +7,6 @@
 
 .work-content {
 	position: relative;
-	left: 20%;
 	width: 80%;
 	display: inline-block;
 }
@@ -15,6 +14,7 @@
 .work-header {
 	transition-duration: 0.2s;
 	width: 200px;
+	margin-left: 20vw;
 }
 .work-header:hover {
 	transform: translateY(-3px);
@@ -38,4 +38,40 @@
 .link-bullet {
 	margin-left: 5px;
 	margin-right: 5px;
+}
+
+.work-details {
+	justify-items: center;
+	width: 100vw;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas:
+		"project-one project-two"
+		"project-three project-four"
+		"project-five project-six";
+	grid-row-gap: 3rem;
+}
+
+@media screen and (max-width: 1350px) {
+	.work-details {
+		grid-template-columns: 1fr;
+		grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+		grid-template-areas:
+			"project-one"
+			"project-two"
+			"project-three"
+			"project-four"
+			"project-five"
+			"project-six";
+
+		grid-row-gap: 3rem;
+		margin-left: 3vw;
+		margin-right: 3vw;
+		width: 94vw;
+	}
+
+	.work-header {
+		margin-left: 5vw;
+	}
 }
