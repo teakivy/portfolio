@@ -5,6 +5,8 @@ import { GiHamburgerMenu } from 'react-icons/gi';
 
 import './index.css';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
+import { IoNewspaperOutline } from 'react-icons/io5';
+import { RiSurveyLine } from 'react-icons/ri';
 
 function Header() {
 	const toggleDropdown = () => {
@@ -83,20 +85,20 @@ function Header() {
 						<div className='header-mobile-element'>
 							<span className='mobile-header-link-element'>
 								<a
-									href='https://github.com/teakivy'
+									href='https://drive.google.com/file/d/1cuczMOD_AiEZDjWmoypMbB57C4rmMS58/view?usp=drive_link'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<FiGithub className='side-link-element side-link-gh' />
+									<IoNewspaperOutline className='side-link-element side-link-gh' />
 								</a>
 							</span>
 							<span className='mobile-header-link-element'>
 								<a
-									href='https://www.linkedin.com/in/collin-jones-93a89825b/'
+									href='https://docs.google.com/forms/d/e/1FAIpQLSeLZnVzatYclu8fS2ywAfiZfyTMzPP0L7JWl2M-ODjaoz8xsg/viewform?usp=sf_link'
 									target='_blank'
 									rel='noopener noreferrer'
 								>
-									<FiLinkedin className='side-link-element side-link-linkedin' />
+									<RiSurveyLine className='side-link-element side-link-linkedin' />
 								</a>
 							</span>
 							<span className='mobile-header-link-element'>
