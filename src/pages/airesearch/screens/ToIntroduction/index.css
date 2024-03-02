@@ -1,0 +1,32 @@
+.to-introduction {
+	text-align: center;
+	color: var(--true-purple);
+	font-size: 1.5rem;
+	cursor: pointer;
+	width: 10rem;
+}
+
+.to-introduction-text {
+	color: var(--true-purple);
+	font-weight: 200;
+	transition-duration: 0.4s;
+}
+
+.to-introduction-arrow {
+	margin-top: -20px;
+	transition-duration: 0.4s;
+}
+
+.to-introduction:hover .to-introduction-arrow {
+	transform: translateY(1rem);
+}
+.to-introduction:hover .to-introduction-text {
+	transform: translateY(1.6rem);
+}
+
+.to-introduction:active .to-introduction-arrow {
+	transform: translateY(1.5rem);
+}
+.to-introduction:active .to-introduction-text {
+	transform: translateY(2.5rem);
+}

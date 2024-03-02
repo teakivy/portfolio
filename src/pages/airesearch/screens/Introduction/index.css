@@ -1,0 +1,54 @@
+.introduction-section {
+	width: 100%;
+	background-color: #1b1725;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.introduction-content {
+	position: relative;
+	left: 20%;
+	width: 80%;
+	display: inline-block;
+}
+
+.introduction-header {
+	transition-duration: 0.2s;
+	width: 200px;
+}
+
+.introduction-header:hover {
+	transform: translateY(-3px);
+}
+
+.introduction-text {
+	font-weight: 200;
+	font-size: 22px;
+	width: 70%;
+	display: inline-block;
+	transition-duration: 0.2s;
+}
+.introduction-text:hover {
+	transform: translateY(-3px);
+}
+
+@media screen and (max-width: 950px) {
+	.introduction-section {
+		display: flex;
+		flex-direction: row;
+	}
+	.introduction-content {
+		left: 5%;
+		width: 90%;
+	}
+
+	.introduction-header {
+		width: 100%;
+	}
+
+	.introduction-text {
+		width: 100%;
+
+		font-size: 20px;
+	}
+}

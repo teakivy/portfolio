@@ -1,0 +1,77 @@
+.logo-title {
+	width: 25%;
+	top: -90px;
+	right: 40px;
+	position: relative;
+	transition-duration: 200ms;
+}
+
+.logo-title:hover {
+	transform: translateY(-5px);
+}
+
+.starter-screen {
+	width: 50rem;
+	/* background-color: red; */
+}
+
+.hello-content {
+	display: inline-block;
+	position: relative;
+	top: -3.2rem;
+}
+
+.hello-i-am {
+	font-size: 3rem;
+	display: block;
+	font-weight: 200;
+	color: var(--true-purple);
+	position: relative;
+	text-align: left;
+}
+
+.hello-my-name {
+	font-size: 5rem;
+	text-align: left;
+	display: block;
+	font-weight: bold;
+	color: var(--true-white);
+	position: relative;
+	top: -1rem;
+}
+
+.hello-i-make {
+	font-size: 3rem;
+	text-align: left;
+	display: block;
+	font-weight: 600;
+	color: var(--dark-white);
+	position: relative;
+	top: -1rem;
+}
+
+@media screen and (max-width: 950px) {
+	.logo-title {
+		display: none;
+	}
+
+	.hello-content {
+		text-align: center;
+		top: -6rem;
+	}
+
+	.hello-i-am {
+		text-align: center;
+		font-size: 2.8rem;
+	}
+
+	.hello-my-name {
+		text-align: center;
+		font-size: 6rem;
+	}
+
+	.hello-i-make {
+		text-align: center;
+		font-size: 1.5rem;
+	}
+}

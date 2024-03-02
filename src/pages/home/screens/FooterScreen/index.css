@@ -1,0 +1,23 @@
+.footer-section {
+	width: 100%;
+	/* background-color: #1b1725; */
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background-color: var(--dark-purple);
+	margin-bottom: -50px;
+	text-align: center;
+}
+
+.footer-content {
+	position: relative;
+	display: inline-block;
+
+	font-size: 1rem;
+	color: var(--dark-white);
+}
+
+.heart {
+	color: #d83e3e;
+	font-size: 2rem;
+	font-weight: 800;
+}

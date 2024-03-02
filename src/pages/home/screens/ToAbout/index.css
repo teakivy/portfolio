@@ -1,0 +1,32 @@
+.to-about {
+	text-align: center;
+	color: var(--true-purple);
+	font-size: 1.5rem;
+	cursor: pointer;
+	width: 10rem;
+}
+
+.to-about-text {
+	color: var(--true-purple);
+	font-weight: 200;
+	transition-duration: 0.4s;
+}
+
+.to-about-arrow {
+	margin-top: -20px;
+	transition-duration: 0.4s;
+}
+
+.to-about:hover .to-about-arrow {
+	transform: translateY(1rem);
+}
+.to-about:hover .to-about-text {
+	transform: translateY(1.6rem);
+}
+
+.to-about:active .to-about-arrow {
+	transform: translateY(1.5rem);
+}
+.to-about:active .to-about-text {
+	transform: translateY(2.5rem);
+}
