@@ -20,13 +20,15 @@ import Research from './pages/airesearch/Research';
 ReactDOM.render(
 	<React.StrictMode>
 		<BrowserRouter>
-            <Routes>
-                <Route path="/" element={<App />} />
-                <Route path="/home" element={<App />} />
-                <Route path="/research" element={<Research />} />
-				<Route path="*" element={<App />} />
-            </Routes>
-        </BrowserRouter>
+			<Routes>
+				<Route path='/' element={<App />} />
+				<Route path='/home' element={<App />} />
+				<Route path='/ai_research' element={<Research />} />
+				<Route path='/airesearch' element={<Research />} />
+				<Route path='/research' element={<Research />} />
+				<Route path='*' element={<App />} />
+			</Routes>
+		</BrowserRouter>
 	</React.StrictMode>,
 	document.getElementById('root')
 );

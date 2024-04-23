@@ -7,6 +7,8 @@ import './index.css';
 import { FiGithub, FiLinkedin, FiMail } from 'react-icons/fi';
 import { IoNewspaperOutline } from 'react-icons/io5';
 import { RiSurveyLine } from 'react-icons/ri';
+import { SlChemistry } from 'react-icons/sl';
+import { LiaSchoolSolid } from 'react-icons/lia';
 
 function Header() {
 	const toggleDropdown = () => {
@@ -99,6 +101,24 @@ function Header() {
 									rel='noopener noreferrer'
 								>
 									<RiSurveyLine className='side-link-element side-link-linkedin' />
+								</a>
+							</span>
+							<span className='mobile-header-link-element'>
+								<a
+									href='https://drive.google.com/file/d/1susm3V_PKujZZalMVydxYZKJEuEbFIyb/view?usp=sharing'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<SlChemistry className='side-link-element side-link-linkedin' />
+								</a>
+							</span>
+							<span className='mobile-header-link-element'>
+								<a
+									href='https://drive.google.com/file/d/1cx3zNkz9_csRaMxE6oWsUjYfunQlyAFX/view?usp=sharing'
+									target='_blank'
+									rel='noopener noreferrer'
+								>
+									<LiaSchoolSolid className='side-link-element side-link-linkedin' />
 								</a>
 							</span>
 							<span className='mobile-header-link-element'>

@@ -6,6 +6,8 @@ import { FiMail } from 'react-icons/fi';
 import { RiSurveyLine } from 'react-icons/ri';
 import { IoNewspaperOutline } from 'react-icons/io5';
 import { Tooltip } from '@mui/material';
+import { LiaSchoolSolid } from 'react-icons/lia';
+import { SlChemistry } from 'react-icons/sl';
 
 function SideLinks() {
 	return (
@@ -18,7 +20,7 @@ function SideLinks() {
 				>
 					<div>
 						<a
-							href='https://drive.google.com/file/d/1cuczMOD_AiEZDjWmoypMbB57C4rmMS58/view?usp=drive_link'
+							href='https://drive.google.com/file/d/1cuczMOD_AiEZDjWmoypMbB57C4rmMS58/view?usp=sharing'
 							target='_blank'
 							rel='noopener noreferrer'
 						>
@@ -34,6 +36,28 @@ function SideLinks() {
 							rel='noopener noreferrer'
 						>
 							<RiSurveyLine className='side-link-element side-link-linkedin' />
+						</a>
+					</div>
+				</Tooltip>
+				<Tooltip title='View the Survey Results' arrow placement='right-start'>
+					<div>
+						<a
+							href='https://drive.google.com/file/d/1susm3V_PKujZZalMVydxYZKJEuEbFIyb/view?usp=sharing'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<SlChemistry className='side-link-element side-link-linkedin' />
+						</a>
+					</div>
+				</Tooltip>
+				<Tooltip title='Read the Research Paper' arrow placement='right-start'>
+					<div>
+						<a
+							href='https://drive.google.com/file/d/1cx3zNkz9_csRaMxE6oWsUjYfunQlyAFX/view?usp=sharing'
+							target='_blank'
+							rel='noopener noreferrer'
+						>
+							<LiaSchoolSolid className='side-link-element side-link-linkedin' />
 						</a>
 					</div>
 				</Tooltip>
