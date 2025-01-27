@@ -9,7 +9,7 @@ function IntroductionScreen() {
                 <span>
                     <span>
                         <h1 className='section-header introduction-header'>
-                            Terms of Use
+                            Terms and Conditions
                         </h1>
                     </span>
                     <p className='introduction-text'>

@@ -10,7 +10,7 @@ function StarterScreen() {
                     County Collector
                 </span>
                 <span className='research-by-cj not-draggable'>
-                    Terms of Use
+                    Terms and Conditions
                 </span>
             </div>
         </div>
