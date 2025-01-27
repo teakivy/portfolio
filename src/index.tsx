@@ -16,21 +16,49 @@ import './assets/fonts/Eina01-BoldItalic.ttf';
 import { Router, Routes, Route } from 'react-router';
 import { BrowserRouter } from 'react-router-dom';
 import Research from './pages/airesearch/Research';
+import CountyCollectorPrivacy from './pages/countycollector/CountyCollectorPrivacy';
+import CountyCollectorTerms from './pages/countycollector/CountyCollectorTerms';
 
 ReactDOM.render(
-	<React.StrictMode>
-		<BrowserRouter>
-			<Routes>
-				<Route path='/' element={<App />} />
-				<Route path='/home' element={<App />} />
-				<Route path='/ai_research' element={<Research />} />
-				<Route path='/airesearch' element={<Research />} />
-				<Route path='/research' element={<Research />} />
-				<Route path='*' element={<App />} />
-			</Routes>
-		</BrowserRouter>
-	</React.StrictMode>,
-	document.getElementById('root')
+    <React.StrictMode>
+        <BrowserRouter>
+            <Routes>
+                <Route
+                    path='/'
+                    element={<App />}
+                />
+                <Route
+                    path='/home'
+                    element={<App />}
+                />
+                <Route
+                    path='/ai_research'
+                    element={<Research />}
+                />
+                <Route
+                    path='/airesearch'
+                    element={<Research />}
+                />
+                <Route
+                    path='/research'
+                    element={<Research />}
+                />
+                <Route
+                    path='/countycollector/privacy'
+                    element={<CountyCollectorPrivacy />}
+                />
+                <Route
+                    path='/countycollector/terms'
+                    element={<CountyCollectorTerms />}
+                />
+                <Route
+                    path='*'
+                    element={<App />}
+                />
+            </Routes>
+        </BrowserRouter>
+    </React.StrictMode>,
+    document.getElementById('root')
 );
 
 // If you want to start measuring performance in your app, pass a function

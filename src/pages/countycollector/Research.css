@@ -1,0 +1,41 @@
+.starter-intro {
+	position: absolute;
+	/* Center */
+	top: calc(50vh);
+}
+
+.center-screen {
+	/* position: absolute; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	min-height: 100vh;
+	/* margin-left: 32rem; */
+	width: 100%;
+	/* background-color: red; */
+}
+
+.header-screen {
+	position: sticky;
+	top: 0px;
+	z-index: 100;
+}
+
+.side-links-screen {
+	position: sticky;
+	display: block;
+	bottom: 0px;
+	width: 0px;
+	/* height: 1px; */
+}
+
+.to-introduction-screen {
+	/* position: relative; */
+	z-index: 1;
+	/* background-color: red; */
+	width: 0rem;
+	position: absolute;
+	top: 84vh;
+	left: calc(50vw - 5rem);
+}
