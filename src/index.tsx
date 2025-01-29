@@ -18,6 +18,7 @@ import { BrowserRouter } from 'react-router-dom';
 import Research from './pages/airesearch/Research';
 import CountyCollectorPrivacy from './pages/countycollector/CountyCollectorPrivacy';
 import CountyCollectorTerms from './pages/countycollector/CountyCollectorTerms';
+import Contact from './pages/countycollector/CountyCollectorContact';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -50,6 +51,10 @@ ReactDOM.render(
                 <Route
                     path='/countycollector/terms'
                     element={<CountyCollectorTerms />}
+                />
+                <Route
+                    path='/countycollector/contact'
+                    element={<Contact />}
                 />
                 <Route
                     path='*'
